@@ -1,5 +1,5 @@
 def parrot(phrase ="Squawk!")
-  puts phrase
+  puts phrase || return 
   if phrase == "Pretty bird!"
     return "Pretty bird!"
   end
